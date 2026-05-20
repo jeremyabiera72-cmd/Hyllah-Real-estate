@@ -1,0 +1,6 @@
+{
+  "name": "Luxury Real Estate",
+  "description": "Modern and professional luxury real estate company website.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
