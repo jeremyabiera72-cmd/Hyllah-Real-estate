@@ -8,10 +8,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
         <div className="md:col-span-1 border-b md:border-none border-gray-100 pb-8 md:pb-0">
           <Link to="/" className="flex items-center space-x-2 mb-6">
-            <img 
-              src={logoUrl} 
-              alt="Hyllah Logo" 
-              className="w-8 h-8 object-cover mix-blend-multiply" 
+            <img
+              src={logoUrl}
+              alt="Hyllah Logo"
+              className="w-8 h-8 object-cover mix-blend-multiply"
             />
             <span className="font-bold text-xl tracking-tighter uppercase">Hyllah Real Estate</span>
           </Link>
@@ -19,7 +19,7 @@ export default function Footer() {
             Curating exceptional luxury real estate experiences. We connect discerning buyers with extraordinary properties around the globe.
           </p>
         </div>
-        
+
         <div>
           <h4 className="font-bold text-sm uppercase tracking-widest mb-6">Quick Links</h4>
           <ul className="space-y-4 text-xs font-semibold uppercase tracking-widest text-gray-400">
@@ -34,9 +34,9 @@ export default function Footer() {
           <h4 className="font-bold text-sm uppercase tracking-widest mb-6">Contact Us</h4>
           <ul className="space-y-4 text-xs text-gray-500">
             <li>123 Luxury Avenue, Suite 400</li>
-            <li>Beverly Hills, CA 90210</li>
-            <li>+1 (310) 555-0198</li>
-            <li>inquiries@hyllahrealestate.com</li>
+            <li>Davao City, Philippines</li>
+            <li>+63955 367 3625</li>
+            <li>yumisbusiness88@gmail.com</li>
           </ul>
         </div>
 
@@ -50,7 +50,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      
+
       <div className="border-t border-gray-100 flex flex-col md:flex-row justify-between items-center px-6 md:px-12 py-6 bg-white text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400 max-w-7xl mx-auto w-full">
         <p>&copy; {new Date().getFullYear()} Hyllah Real Estate.</p>
         <div className="flex space-x-6 mt-4 md:mt-0">

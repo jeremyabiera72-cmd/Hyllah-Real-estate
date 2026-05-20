@@ -11,9 +11,9 @@ const stats = [
 ];
 
 const team = [
-  { name: "Alexandra Croft", role: "Founder & CEO", img: team1 },
-  { name: "Robert Sterling", role: "Head of Acquisitions", img: team2 },
-  { name: "Elena Rostova", role: "Senior Broker", img: team3 }
+  { name: "Jeremy Abiera", role: "Founder & CEO", img: team1 },
+  { name: "Yuna Scott", role: "Head of Acquisitions", img: team2 },
+  { name: "Yumi Chan", role: "Senior Broker", img: team3 }
 ];
 
 export default function About() {
@@ -55,7 +55,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
             {stats.map((stat, idx) => (
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -74,12 +74,12 @@ export default function About() {
       <section className="max-w-7xl mx-auto px-6 md:px-12 mb-24">
         <div className="text-center mb-16">
           <h2 className="font-bold tracking-tighter text-4xl mb-4">Leadership Team</h2>
-          <p className="text-gray-500 text-sm tracking-widest uppercase">The Minds Behind Hyllah</p>
+          <p className="text-gray-500 text-sm tracking-widest uppercase">The Minds Behind Hyllah Real Estate</p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {team.map((member, idx) => (
-            <motion.div 
+            <motion.div
               key={idx}
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
